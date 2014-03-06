@@ -1,0 +1,24 @@
+#cuisine_section
+{
+	background: url("cuisine/images/background_section/ingredient-substitutions.png") fixed center;
+}
+
+#cocktails_section
+{
+	background: url("cocktails/images/background_section/palmier.png") fixed;
+}
+
+img
+{
+	opacity : 1;
+}	
+
+p img
+{
+	box-shadow : 6px 6px 6px black;
+}
+
+ul
+{
+	list-style: none;
+}

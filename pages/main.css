@@ -1,0 +1,104 @@
+body	/*body of the pages*/
+{
+	background : url("images/background/default_blur.png") fixed center no-repeat ;
+	text-align : center;
+	overflow:auto;
+	word-wrap: break-word;
+}
+
+h1		/*Very important titles*/
+{
+	color : black;
+	font-size : 3em;
+}
+
+h2		/*Important titles*/
+{
+	color : maroon;
+	font-size : 2em;
+	border : 3px maroon ridge;
+	border-radius : 10px;
+}
+
+h3		/*Less important titles*/
+{
+	color : blue;
+	font-size : 1.5em;
+	text-align : left;
+}
+
+p		/*Paragraphes*/
+{
+	color : black;
+	font-size : 1.4em;
+}
+
+a		/*Links*/
+{
+	text-decoration : none;
+	color : black;
+}
+
+a:active, a:focus /*Links on the click, links when focused*/
+{
+	background-color: #FFCC66;
+}
+
+nav ul li		/*Unordonned lists*/
+{
+	display: inline-block;
+	list-style: none;
+	text-align : left;
+	font-size : 1.4em;
+	vertical-align:top;
+}
+
+.liens_navigation	/*Links to the other pages - general*/
+{
+	font-weight : bold;
+	text-decoration : none;
+	color : black;
+}
+
+.liens_navigation:hover	/*Links to the other pages - when hovered*/
+{
+	text-decoration : underline;
+	color : blue;
+}
+
+
+section 
+{
+	display:inside-block;
+	vertical-align: top;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+	padding: none;
+	width: 120ex;
+	margin: auto;
+	
+}
+
+aside
+{
+	display:inside-block;
+	vertical-align: top;
+	width: 33ex;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+	padding: none;
+	float:right;
+}
+
+article
+{
+	background: url("images/background/default_blur.png") fixed center no-repeat ;
+	border: 1px black solid;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+	padding: none;
+	margin: 10px;
+}
+
